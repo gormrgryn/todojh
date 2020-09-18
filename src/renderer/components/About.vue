@@ -2,8 +2,8 @@
     <div class="about">
         <span class="abouttxt" @click="showabout">About</span>
         <div v-show="about">
-            <p>Made by <span class="imptxt">gormargaryan</span> (https://github.com/gormargaryan)</p>
-            <p>Icon by <span class="imptxt">Icons8</span> (https://icons8.com)</p>
+            <p>Made by <span class="imptxt">gormrgryn</span> (<span class="link">https://github.com/gormrgryn</span>)</p>
+            <p>Icon by <span class="imptxt">Icons8</span> (<span class="link">https://icons8.com</span>)</p>
         </div>
     </div>
 </template>
@@ -30,16 +30,20 @@ export default {
 
 <style>
 .abouttxt {
-    text-decoration: #00a896 underline;
-    color: #00a896;
-    font-weight: bold;
-    cursor: pointer;
+  text-decoration: #00a896 underline;
+  color: #00a896;
+  font-weight: bold;
+  cursor: pointer;
+  user-select: none;
+}
+.link {
+  user-select: all
 }
 .imptxt {
-    color: #02c39a;
-    font-weight: bold
+  color: #02c39a;
+  font-weight: bold
 }
 .about > div > p {
-    color: #f0f3bd
+  color: #f0f3bd
 }
 </style>

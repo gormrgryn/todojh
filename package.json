@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "author": "gormargaryan <gor.margaryan1.y@tumo.org>",
   "description": "An electron-vue project",
-  "license": null,
+  "license": "MIT",
   "main": "./dist/electron/main.js",
   "scripts": {
     "build": "node .electron-vue/build.js && electron-builder",
@@ -19,7 +19,7 @@
     "postinstall": "npm run lint:fix"
   },
   "build": {
-    "productName": "todojh",
+    "productName": "TodoJH",
     "appId": "com.todojh.gm",
     "directories": {
       "output": "build"
@@ -46,10 +46,15 @@
       "icon": "build/icons/icon.icns"
     },
     "win": {
-      "icon": "build/icons/icon.ico"
+      "icon": "build/icons/icon.png"
     },
     "linux": {
       "icon": "build/icons"
+    },
+    "target": "NSIS",
+    "nsis": {
+      "allowToChangeInstallationDirectory": true,
+      "oneClick": false
     }
   },
   "dependencies": {

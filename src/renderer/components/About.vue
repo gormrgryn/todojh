@@ -3,7 +3,7 @@
         <span class="abouttxt" @click="showabout">About</span>
         <div v-show="about">
             <p>Made by <span class="imptxt">gormrgryn</span> (<span class="link">https://github.com/gormrgryn</span>)</p>
-            <p>Icon by <span class="imptxt">Icons8</span> (<span class="link">https://icons8.com</span>)</p>
+            <p>Icons made by <span class="imptxt">Freepik</span> (<span class="link">https://www.flaticon.com/authors/freepik</span>) from <span class="link imptxt">https://www.flaticon.com</span></p>
         </div>
     </div>
 </template>

@@ -1,8 +1,8 @@
 {
   "name": "todojh",
   "version": "0.0.1",
-  "author": "gormargaryan <gor.margaryan1.y@tumo.org>",
-  "description": "An electron-vue project",
+  "author": "gormrgryn <gor-margaryan-05@mail.ru>",
+  "description": "electron-vue todo list app",
   "license": "MIT",
   "main": "./dist/electron/main.js",
   "scripts": {

@@ -38,6 +38,7 @@
     <li>
       <a href="#about-the-project">About The Project</a>
       <ul>
+        <li><a href="#screenshots">Built With</a></li>
         <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
@@ -52,6 +53,11 @@
 ## About The Project
 
 To-do desktop application.
+
+### Screenshots
+![screenshot1](https://user-images.githubusercontent.com/71388341/94341299-3c40e380-0019-11eb-9de3-edac63739801.PNG)
+![screenshot2](https://user-images.githubusercontent.com/71388341/94341301-3f3bd400-0019-11eb-8be8-737135d3844d.PNG)
+![screenshot3](https://user-images.githubusercontent.com/71388341/94341303-406d0100-0019-11eb-9123-80083bd0144a.PNG)
 
 ### Built with
 <ul>
